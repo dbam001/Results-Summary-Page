@@ -197,9 +197,11 @@ button {
 
     .breakdown {
         margin: -30px auto 0 90px;
+        justify-content: center;
     }
 
     .score {
         margin: 0 0 0 -5px;
+        justify-content: center;
     }
   }
