@@ -1,0 +1,205 @@
+body {
+    margin: 0;
+    font-size: 20px;
+    font-family: Hanken Grotesk;
+}
+
+h3 {
+    font-size: 28px;
+    margin-left: 10px;
+}
+
+.container {
+    display: flex;
+    margin: 200px auto;
+    padding: 0 30px;
+    max-width: 1500px;
+    align-items: center;
+}
+
+/* BOX 1 TYPOGRAPHY */
+
+.score {
+
+    background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    width: 310px;
+    height: 520px;
+    margin: 0 0 0 auto;
+    border-radius: 7%;
+    padding: 40px 80px;
+    text-align: center;
+    float: left;
+}
+
+
+.your-results {
+    font-weight: 500;
+}
+
+.your-results,
+.paragraph-score,
+.paragraph-container {
+    color: hsl(241, 100%, 89%);
+}
+
+
+h1, 
+h2 {
+    color: hsl(0, 0%, 100%);
+}
+
+
+.circle-score {
+    border-radius: 80%;
+    background: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    width: 200px;
+    margin: -10px auto 30px auto;
+}
+
+h1 {
+    font-weight: 800;
+    font-size: 75px;
+    padding: 40px 0 0 0;
+}
+
+.paragraph-score {
+    margin: -50px 0 0 0;
+    padding: 0 0 40px 0;
+}
+
+.paragraph-container { 
+    margin: -10px 0 0 0;
+    padding: 0 0 10px 0;
+}
+button {
+    cursor: pointer;
+}
+
+/* .breakdown - make dimensions for the div the same so that 
+they are exactly identical and can be stacked */
+
+.breakdown {
+    background: hsl(0%, 0%, 100%);
+    display: flex;
+    flex-direction: column;
+    box-shadow: 20px 0 30px 1px hsla(241, 84%, 54%, 0.06); 
+    width: 455px;
+    height: 500px;
+    float: left;
+    border-radius: 7%;
+    padding: 40px 10px 60px 30px;
+    margin: 0 auto 0 0;
+}
+
+.reaction {
+    display: flex;
+    margin: 0 5px 20px 5px;
+    border-radius: 10px;
+    background-color: hsla(0, 100%, 67%, 10%);
+    padding: 0 10px 0 10px;
+}
+
+.reaction-text {
+    color: hsl(0, 100%, 67%);
+    font-weight: 500;
+}
+
+.reaction-score-percent {
+    padding-left: 220px;
+}
+
+.memory {
+    display: flex;
+    background-color: hsla(39, 100%, 56%, 5%);
+    margin: 0 5px 20px 5px;
+    border-radius: 10px;
+    padding: 0 10px 0 10px;
+}
+
+.memory-text {
+    color: hsl(39, 100%, 56%);
+    font-weight: 500;
+}
+
+.memory-score-percent {
+    padding-left: 225px;
+}
+
+.verbal {
+    display: flex;
+    background-color: hsla(166, 100%, 37%, 5%);
+    margin: 0 5px 20px 5px;
+    border-radius: 10px;
+    padding: 0 10px 0 10px;
+}
+
+.verbal-text {
+    color: hsl(166, 100%, 37%);
+    font-weight: 500;
+}
+
+.verbal-score-percent {
+    padding-left: 240px;
+}
+
+.visual {
+    display: flex;
+    background-color: hsla(234, 85%, 45%, 5%);
+    margin: 0 5px 30px 5px;
+    border-radius: 10px;
+    padding: 0 10px 0 10px;
+}
+
+.visual-text {
+    color: hsl(234, 85%, 45%);
+    font-weight: 500;
+}
+
+.visual-score-percent {
+    padding-left: 245px;
+}
+
+.heading-breakdown {
+    font-weight: 700;
+    color: hsl(234, 83%, 7%);
+    text-align: left;
+}
+
+.top-percent {
+    font-weight: 700; 
+    color: hsl(234, 83%, 7%);
+}
+
+img {
+  width: 30px;
+    height: auto;
+    padding-right: 15px;
+}
+
+button {
+    background-color: hsl(234, 83%, 7%);
+    color: white;
+    margin: 0 10px;
+    height: 70px;
+    font-size: 22px;
+    font-weight: 500;
+    font-family: Hanken Grotesk;
+    border-radius: 40px;
+    padding: 20px;
+}
+
+@media (max-width: 1020px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        margin: 50px auto;
+    }
+
+    .breakdown {
+        margin: -30px auto 0 90px;
+    }
+
+    .score {
+        margin: 0 0 0 -5px;
+    }
+  }
